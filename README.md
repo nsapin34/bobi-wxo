@@ -99,13 +99,13 @@ pip install --upgrade ibm-watsonx-orchestrate
 #### Configure the ADK Environment
 Create the "lab" environment in the ADK with:
 ```bash 
-orchestrate env add -n lab -u https://api.us-south.watson-orchestrate.cloud.ibm.com/instances/2dc5b062-6a29-4686-9c76-bc25e5512255
+orchestrate env add -u https://api.us-south.watson-orchestrate.cloud.ibm.com/instances/e466ac09-1a5e-421f-ac0f-e4f7a52e7f02 -n bobi
 ```
 Activate the ADK environment with:
 ```bash
-orchestrate env activate lab -a GTLI6TuscI1DBJd0EwQbJbTAzpNCrqAQA1JDKPj0ARSn
+orchestrate env activate bobi -a aCC3F9pNnjfTQ8CQNrsBKnqHJJdOBPrKoPgm4ClyDW7e
 ```
-And test it with:
+And test it with this command that lists the agents in our watsonx orchestrate instance:
 ```bash
 orchestrate agents list
 ```
@@ -173,9 +173,9 @@ Add the following MCP server configuration in your mcp.json file.
                 "wxo-threads-mcp-server"
             ],
             "env": {
-                "WXO_API_ENDPOINT": "https://api.us-south.watson-orchestrate.cloud.ibm.com/instances/2dc5b062-6a29-4686-9c76-bc25e5512255",
-                "WXO_API_KEY": "GTLI6TuscI1DBJd0EwQbJbTAzpNCrqAQA1JDKPj0ARSn",
-                "WXO_DEFAULT_AGENT_ID": "2724102a-00d0-4384-813f-ec9082a93e83",
+                "WXO_API_ENDPOINT": "https://api.us-south.watson-orchestrate.cloud.ibm.com/instances/e466ac09-1a5e-421f-ac0f-e4f7a52e7f02",
+                "WXO_API_KEY": "aCC3F9pNnjfTQ8CQNrsBKnqHJJdOBPrKoPgm4ClyDW7e",
+                "WXO_DEFAULT_AGENT_ID": "0bb33906-0776-49e2-9b60-0bccf934b54f",
                 "WXO_TIMEOUT": "30",
                 "WXO_LOG_LEVEL": "DEBUG"
             },
@@ -285,3 +285,23 @@ get the logs from the execution of the loan advisor agent.
 
 You can also connect to the wxo UI to query the agent:
 ![wxo UI](images/project/wxo-UI.png)
+
+
+BONUS:
+
+Use Case: Currency Converter Agent
+Objective
+Create a helpful Currency Converter Agent that can instantly convert any amount between world currencies (e.g. “Convert 250 EUR to USD” or “What is 1500 GBP in JPY?”).
+What you will build
+
+A Python tool (currency_converter_tool.py) that calls the free Frankfurter API (no API key required)
+An agent (currency_converter_agent.yaml) that uses this tool
+
+Your mission
+
+Ask Bob to create the Python tool that contains a function convert_currency(amount, from_currency, to_currency).
+Ask Bob to create the agent file that uses this tool.
+Import both the tool and the agent into watsonx Orchestrate using the ADK MCP server (same method as the loan calculator).
+Test your agent by asking Bob or the watsonx Orchestrate UI questions like:
+“Convert 500 EUR to USD”
+“How much is 1200 GBP in CAD?”
