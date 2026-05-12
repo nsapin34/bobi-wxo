@@ -122,17 +122,17 @@ orchestrate tools list
 
 Go to Modes in Bob:
 
-![bob modes](images/MCP-servers/go-to-Bob-modes.png)
+![bob modes](images/modes/go-to-Bob-modes.png)
 
 Scroll down and install the "wxo Agent Architectect" mode:
 
-![bob modes](images/MCP-servers/install-wxo-agent-architectect.png)
+![bob modes](images/modes/install-wxo-agent-architectect.png)
 
-![bob modes](images/MCP-servers/install-wxo-agent-architectect-2.png)
+![bob modes](images/modes/install-wxo-agent-architectect-2.png)
 
 now switch to the "wxo Agent Architectect" mode:
 
-![bob modes](images/MCP-servers/switch-to-wxo-agent-architectect.png)
+![bob modes](images/modes/switch-to-wxo-agent-architectect.png)
 
 
 ### Install and Configure the wxo MCP Servers in Bob
