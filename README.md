@@ -275,7 +275,7 @@ Add type hints and concise docstrings.
 
 Organize the code as a watsonx Orchestrate tool:
 
-Place the implementation in wxo-files/tools/loan_tool_XXXX.py where you have to replace XXXX with your own unique identifier.
+Place the implementation in wxo-files/tools/loan_tool_XXXX.py where you have to replace XXXX with your own unique identifier. the name of the tool should be loan_tool_XXXX.
 
 The file must define the monthly_payment function as the main callable entry point.
 ```
@@ -290,7 +290,7 @@ import the python tool you have just created in wxo.
 Then ask Bob to create an agent file that uses this tool (change the path if necessary):
 
 ```bash
-create an agent file in wxo-files\agents directory.  this agent have to use the loan_tool tool you have just created to provide information about loan payments. The name of the agent file should be loan_advisor_agent_XXXX.yaml where you have to replace XXXX with your own unique identifier. The agent should be able to answer questions about loan payments and provide the monthly payment amount for a given loan amount, interest rate, and term. The agent should be able to handle edge cases and provide clear error messages. The agent should be able to be imported in wxo.
+create an agent file in wxo-files\agents\loan_advisor_agent_XXXX.yaml directory.  this agent have to use the loan_tool tool you have just created to provide information about loan payments. The name and the display name of the agent file should be loan_advisor_agent_XXXX where you have to replace XXXX with your own unique identifier. The agent should be able to answer questions about loan payments and provide the monthly payment amount for a given loan amount, interest rate, and term. The agent should be able to handle edge cases and provide clear error messages. The agent should be able to be imported in wxo.
 
 ```
 Now import your newly created agent file in wxo with:
