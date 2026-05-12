@@ -10,7 +10,7 @@ You will learn how to:
 #### Join the Cloud
 In your email inbox, you have received an invitation to join the Cloud. Follow the instructions in the email to join the Cloud.
 
-![Join Cloud](images/join-cloud.png)
+![Join Cloud](images/join-cloud-2.png)
 
 
 #### Get connected to [techzone](https://techzone.ibm.com) to check the status of your instance.
@@ -18,6 +18,8 @@ In your email inbox, you have received an invitation to join the Cloud. Follow t
 ![open Cloud](images/open-techzone.png)
 
 ![click Cloud link](images/cloud-login.png)
+
+Check the cloud number in the top-right corner of your resource list page.
 
 ![launch wxo](images/launch-wxo.png)
 
