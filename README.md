@@ -228,7 +228,7 @@ get the logs of the last interaction with the agent:
 get the logs from the last interaction with the agent
 ```
 
-![bob mcp servers](images/MCP-servers/get-the-logs.png
+![bob mcp servers](images/MCP-servers/get-the-logs.png)
 
 
 ### Create an Agent Using a Simple Tool Project with Bob in watsonx Orchestrate
