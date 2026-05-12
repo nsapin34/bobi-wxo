@@ -137,7 +137,8 @@ Then install the second MCP server:
 ![bob mcp servers](images/MCP-servers/install-MCP2-2.png)
 
 Then provide the path to your Bob repository where you and Bob will create the agent and tool files:
-** the provided path MUST BE within your Bob folder ** 
+
+**the provided path MUST BE within your Bob folder** 
 
 ![bob mcp servers](images/MCP-servers/install-MCP2-3.png)
 
