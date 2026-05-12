@@ -126,13 +126,13 @@ Go to Modes in Bob:
 
 Scroll down and install the "wxo Agent Architectect" mode:
 
-![bob modes](images/modes/install-wxo-agent-architectect.png)
+![bob modes](images/modes/install-wxo-agent-architecte.png)
 
-![bob modes](images/modes/install-wxo-agent-architectect-2.png)
+![bob modes](images/modes/install-wxo-agent-architecte-2.png)
 
 now switch to the "wxo Agent Architectect" mode:
 
-![bob modes](images/modes/switch-to-wxo-agent-architectect.png)
+![bob modes](images/modes/switch-to-wxo-agent-architect.png)
 
 
 ### Install and Configure the wxo MCP Servers in Bob
