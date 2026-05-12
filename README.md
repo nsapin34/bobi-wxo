@@ -290,7 +290,9 @@ You can also connect to the wxo UI to query the agent:
 BONUS:
 
 Use Case: Currency Converter Agent
+
 Objective
+
 Create a helpful Currency Converter Agent that can instantly convert any amount between world currencies (e.g. “Convert 250 EUR to USD” or “What is 1500 GBP in JPY?”).
 What you will build
 
@@ -300,8 +302,13 @@ An agent (currency_converter_agent.yaml) that uses this tool
 Your mission
 
 Ask Bob to create the Python tool that contains a function convert_currency(amount, from_currency, to_currency).
+
 Ask Bob to create the agent file that uses this tool.
+
 Import both the tool and the agent into watsonx Orchestrate using the ADK MCP server (same method as the loan calculator).
+
 Test your agent by asking Bob or the watsonx Orchestrate UI questions like:
+
 “Convert 500 EUR to USD”
+
 “How much is 1200 GBP in CAD?”
