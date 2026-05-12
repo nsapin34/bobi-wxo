@@ -235,12 +235,12 @@ get the logs from the last interaction with the agent
 
 Now that the 3 MCP servers are correctly configured, we will use them to create a small project with Bob.
 
-As the authentification between ADK in IBM Cloud may be expired, (re)activate the ADK environment with:
+As the authentification between ADK in IBM Cloud may be expired, (re)activate the ADK environment from your **python venv** with:
 ```bash
 orchestrate env activate bobi -a aCC3F9pNnjfTQ8CQNrsBKnqHJJdOBPrKoPgm4ClyDW7e
 ```
 
-Create a tool that performs a loan calculation (change the path wxo-files/tools/loan_tool.py according to your project - it has to be visible by the ADK MCP server):
+Create a tool **with BOB** that performs a loan calculation (change the path wxo-files/tools/loan_tool.py according to your project - it has to be visible by the ADK MCP server):
 
 ```bash
 Write a Python tool for IBM watsonx Orchestrate that exposes a single function:
