@@ -216,10 +216,19 @@ Add the following MCP server configuration in your mcp.json file.
 
 
 You can test chatting with the default wxo agent (the agent ID provided in the MCP configuration file) with:
+
+``` bash
 Ask the wxo agent: "3 + 3 = ?"
+```
 
 ![bob mcp servers](images/MCP-servers/test-threads-mcp1.png)
 
+get the logs of the last interaction with the agent:
+``` bash
+get the logs from the last interaction with the agent
+```
+
+![bob mcp servers](images/MCP-servers/get-the-logs.png
 
 
 ### Create an Agent Using a Simple Tool Project with Bob in watsonx Orchestrate
