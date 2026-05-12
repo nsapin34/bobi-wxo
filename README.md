@@ -118,6 +118,23 @@ orchestrate tools list
 ![adk install](images/adk-env-config.png)
 
 
+### Installing "wxo Agent Architectect" in Bob
+
+Go to Modes in Bob:
+
+![bob modes](images/MCP-servers/go-to-Bob-modes.png)
+
+Scroll down and install the "wxo Agent Architectect" mode:
+
+![bob modes](images/MCP-servers/install-wxo-agent-architectect.png)
+
+![bob modes](images/MCP-servers/install-wxo-agent-architectect-2.png)
+
+now switch to the "wxo Agent Architectect" mode:
+
+![bob modes](images/MCP-servers/switch-to-wxo-agent-architectect.png)
+
+
 ### Install and Configure the wxo MCP Servers in Bob
 
 Go to Bob MCP servers:
@@ -203,21 +220,6 @@ Ask the wxo agent: "3 + 3 = ?"
 
 ![bob mcp servers](images/MCP-servers/test-threads-mcp1.png)
 
-### Installing "wxo Agent Architectect" in Bob
-
-Go to Modes in Bob:
-
-![bob modes](images/MCP-servers/go-to-Bob-modes.png)
-
-Scroll down and install the "wxo Agent Architectect" mode:
-
-![bob modes](images/MCP-servers/install-wxo-agent-architectect.png)
-
-![bob modes](images/MCP-servers/install-wxo-agent-architectect-2.png)
-
-now switch to the "wxo Agent Architectect" mode:
-
-![bob modes](images/MCP-servers/switch-to-wxo-agent-architectect.png)
 
 
 ### Create an Agent Using a Simple Tool Project with Bob in watsonx Orchestrate
