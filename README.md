@@ -148,7 +148,7 @@ C:/Users/082037706/Documents/2026/accelerator/git/bob/bob-MCP-wxo/wxo-files
 
 Test the ADK MCP server with a request like:
 ```bash
-list the agents in orchestrate
+list the agents in orchestrate using the watsonx-orchestrate-adk MCP server
 ```
 
 ![bob mcp servers](images/MCP-servers/test-adk-mcp.png)
